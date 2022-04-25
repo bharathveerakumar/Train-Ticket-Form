@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Train-Ticket Reservation</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Train-Ticket Reservation</h1>
     <form action="./index.html">
-        <label for="trainid">Train Number and Name</label>
-        <select name="trainname" id="trainid">
-            <option value="101 Kovai Express">101 Kovai Express</option>
-            <option value="201 Chennai Express">201 Chennai Express</option>
-            <option value="301 Salem Express">301 Salem Express</option>
-            <option value="401 Salem Express">401 Trichy Express</option>
-        </select>
-        <label for="class">Class of Travel</label>
-        <select name="class" id="class">
-            <option value="1st">First Class</option>
-            <option value="2nd">Second Class</option>
-            <option value="a/c">With A/C</option>
-        </select>
-        <label for="date">Select Your Date of Travel</label>
-        <input type="date" id="date">
-        <label for="number">Number of Tickets</label>
-        <input type="number" id="number">
+        <div>
+            <label for="trainid">Train Number and Name</label>
+            <select name="trainname" id="trainid">
+                <option value="101 Kovai Express">101 Kovai Express</option>
+                <option value="201 Chennai Express">201 Chennai Express</option>
+                <option value="301 Salem Express">301 Salem Express</option>
+                <option value="401 Salem Express">401 Trichy Express</option>
+            </select>
+        </div>
+        <div>
+            <label for="class">Class of Travel</label>
+            <select name="class" id="class">
+                <option value="1st">First Class</option>
+                <option value="2nd">Second Class</option>
+                <option value="a/c">With A/C</option>
+            </select>
+        </div>
+        <div>
+            <label for="date">Select Your Date of Travel</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="number">Number of Tickets</label>
+            <input type="number" id="number" placeholder="Enter the No. of Tickets">
+        </div>
+        <button>Submit</button>
     </form>
+    <script src="./script.js"></script>
 </body>
+
 </html>

@@ -58,4 +58,21 @@ option{
 
 button{
     padding: 10px;
+    font-weight: bolder;
+    color:black;
+    font-size: 18px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.none{
+    display: none;
+}
+
+p{
+    font-size: 20px;
+    color: red;
 }

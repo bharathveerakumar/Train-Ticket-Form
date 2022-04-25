@@ -17,16 +17,16 @@
     <form action="./index.html">
         <div>
             <label for="name">Name</label>
-            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Enter your name" required>
         </div>
         <div>
             <label for="phone">Phone Number</label>
-            <input type="number" placeholder="Enter your Number" id="phone">
+            <input type="number" placeholder="Enter your Number" id="phone" required>
             <span class="none">It should be a phone number!!!</span>
         </div>
         <div>
             <label for="trainid">Train Number and Name</label>
-            <select name="trainname" id="trainid">
+            <select name="trainname" id="trainid" required>
                 <option value="101 Kovai Express">101 Kovai Express</option>
                 <option value="201 Chennai Express">201 Chennai Express</option>
                 <option value="301 Salem Express">301 Salem Express</option>
@@ -35,7 +35,7 @@
         </div>
         <div>
             <label for="class">Class of Travel</label>
-            <select name="class" id="class">
+            <select name="class" id="class" required>
                 <option value="1st">First Class</option>
                 <option value="2nd">Second Class</option>
                 <option value="a/c">With A/C</option>
@@ -43,14 +43,14 @@
         </div>
         <div>
             <label for="date">Select Your Date of Travel</label>
-            <input type="date" id="date">
+            <input type="date" id="date" required>
             <p class="none">Please Select date within a month</p>
         </div>
         <div>
             <label for="number">Number of Tickets</label>
-            <input type="number" id="number" placeholder="Enter the No. of Tickets">
+            <input type="number" id="number" placeholder="Enter the No. of Tickets" requires>
         </div>
-        <button>Check Availability</button>
+        <button type="submit">Check Availability</button>
     </form>
     <script src="./script.js"></script>
 </body>

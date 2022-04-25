@@ -1,2 +1,2 @@
 # Train-Ticket-Form
-<a href="https://bharathveerakumar.github.io/Train-Ticket-Form/">Demo</a>
+<a href="https://train-ticket-bvk.netlify.app/">Demo</a>
